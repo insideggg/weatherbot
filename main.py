@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-TOKEN = '6506803364:AAHaW-2krhreROBWJ6GMIYPsh3dVVdAH3Xo'
+TOKEN = 'BOT_TOKEN'
 bot = telebot.TeleBot(TOKEN)
 
 cities = {"Дрогобич": "дрогобич", "Львів": "львів", "Стрий": "стрий"}
